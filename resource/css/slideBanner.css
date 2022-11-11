@@ -1,0 +1,43 @@
+#mainSlide {
+    position: relative;
+    width: 100%;
+}
+#mainSlide img {
+    width: 100%;
+    height: auto;
+    
+}
+#categorySlide {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vw;
+    width: 100%;
+    justify-content: space-around;
+    gap: 1vw;
+}
+#categorySlide img {
+    width: 100%;
+    height: auto;
+}
+#mainSlide button {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+}
+#mainSlide button:hover{
+    background-color: #a7c957;
+}
+#mainSlide button:active{
+    background-color: #386641;
+    color: white;
+}
+
+#slideBack {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+}
+#slideNext {
+    position: absolute;
+    top: 40%;
+    right: 0%;
+}

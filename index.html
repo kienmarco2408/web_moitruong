@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Môi trường</title>
+    <!-- GoogleFont -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Link CSS -->
+        <link rel="stylesheet" href="./resource/css/page.css">
+        <link rel="stylesheet" href="./resource/css/header.css">
+        <link rel="stylesheet" href="./resource/css/slideBanner.css">
+        <link rel="stylesheet" href="./resource/css/aside.css">
+        <link rel="stylesheet" href="./resource/css/section.css">
+</head>
+
+<body>
+    <!-- Breaking News -->
+    <section id="shortNew">
+        <div id="shortNewLabel">Breaking new</div>
+        <!-- need fill -->
+        <div id="shortNewContent">
+            <p id="shortNewContent01"></p>
+        </div>
+        <div id="time">
+            <script src="./resource/script/page.js"></script>
+        </div>
+    </section>
+
+    <!-- Header and Navigation -->
+    <header>
+        <!-- need fill -->
+        <div id="logo">
+            <img style="height: 6vw; width: 100%; object-fit: contain; object-position: center;" src="/resource/media/logo.png" alt="">
+        </div> 
+        <nav>
+            <div id="navButton">
+                <a style="background-color:#386641; " href="/index.html"><div><p style="color: white;">Home</p></div></a>
+                <a href="/environment.html"><div><p>Environment</p></div></a>
+                <a href="/recycle.html"><div><p>Recycle</p></div></a>
+                <a href="/competition.html"><div><p>Competition</p></div></a>
+            </div>
+            <div id="searchIcon">
+                <span>
+                    <form action="" method="GET">
+                        <input type="text" id="search" name="search">
+                    </form>
+                </span>
+                <span class="material-symbols-outlined">search</span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Body -->
+    <div id="body">
+        <main>
+            <!-- Slide -->
+            <div id="slide">
+                <div id="mainSlide">
+                    <div id="mainBanner"></div>
+                    <!-- <button style="padding: 2vw 0.2vw 2vw 0.8vw; border-radius: 0 0.5vw 0.5vw 0;" id="slideBack" onclick="slideBackFn()">
+                        <span class="material-symbols-outlined">arrow_back_ios</span>
+                    </button>
+                    <button style="padding: 2vw 0.5vw 2vw 0.5vw; border-radius: 0.5vw 0 0 0.5vw" id="slideNext" onclick="slideNextFn()">
+                        <span  class="material-symbols-outlined">arrow_forward_ios</span>
+                    </button> -->
+                </div>
+                <div id="categorySlide">
+                    <div id="category1"></div>
+                    <div id="category2"></div>
+                    <div id="category3"></div>
+                    <div id="category4"></div>
+                    <div id="category5"></div>
+                </div>
+                <script src="./resource/script/slidebanner.js"></script>
+            </div>
+            <!-- Aside -->
+            <aside id="aside">
+                <div id="asidePost1">
+                    <div id="thumbnail1"></div>
+                    <p id="title1"></p>
+                </div>
+                <div id="asidePost2">
+                    <div id="thumbnail2"></div>
+                    <p id="title2"></p>
+                </div>
+                <div id="asidePost3">
+                    <div id="thumbnail3"></div>
+                    <p id="title3"></p>
+                </div>
+                <div id="asidePost4">
+                    <div id="thumbnail4"></div>
+                    <p id="title4"></p>
+                </div>
+                <div id="asidePost5">
+                    <div id="thumbnail5"></div>
+                    <p id="title5"></p>
+                </div>
+                <script src="/resource/script/asideInsert.js"></script>
+            </aside>
+        </main>
+        <section>
+            <div class="sectionHorizonLine">
+                <div class="yLine"></div>
+                <p class="sectionName">Emvironment</p>
+                <div class="xLine"></div>
+            </div>
+            <div class="section1PostRow">
+                <div class="secPostContainer" id="section1Post1">
+                    <a href="resource\post\environ\trai-dat-keu-cuu-lieu-co-ai-tra-loi.html">
+                        <div class="secThumbnail" id="secPostThumb1"><img src="https://hutbephot247.com/wp-content/uploads/anh-huong-cua-bien-doi-khi-hau-den-viet-nam.jpg" alt=""></div>
+                        <div class="secContent">
+                            <div class="secTime" style="display: flex; align-items: center;">
+                                <span style="font-size: 12pt; margin-right: 0.25vw;" class="material-symbols-outlined">schedule</span>
+                                <p class="secPostTime" id="secPostTime1">20 JUL 2022</p>
+                            </div>
+                            <p class="secPostTitle" id="secPostTitle1">Trái Đất kêu cứu liệu có ai trả lời</p>
+                            <p class="secPostDescription" id="secPostDescript1">Biến đổi khí hậu phản ánh sự thay đổi dài hạn về nhiệt độ và các hiện tượng thời tiết. Những thay đổi này là tự nhiên, nhưng kể từ những năm 1800, tác động của con người là nguyên nhân chính gây ra biến đổi khí hậu, chủ yếu do đốt nhiên liệu hóa thạch (như than, dầu và khí đốt) tạo ra khí giữ nhiệt. Các tác động của biến đổi khí hậu, nhiệt độ ấm hơn theo thời gian đang làm thay đổi hiện tượng thời tiết và phá vỡ sự cân bằng thông thường của thiên nhiên. Điều này ảnh hưởng tới cuộc sống của con người và các loại động thực vật trên trái đất.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="secPostContainer" id="section1Post2">
+                    <div class="secThumbnail" id="secPostThumb2"><img src="https://upanh123.com/wp-content/uploads/2020/10/hinh-anh-o-nhiem-moi-truong9-2.jpg" alt=""></div>
+                    <a href="/resource/post/environ/o-nhiem-moi-truong.html">
+                        <div class="secContent">
+                            <div class="secTime" style="display: flex; align-items: center;">
+                                <span style="font-size: 12pt; margin-right: 0.25vw;" class="material-symbols-outlined">schedule</span>
+                                <p class="secPostTime" id="secPostTime2">16 JUN 2022</p>
+                            </div>
+                            <p class="secPostTitle" id="secPostTitle2">Ô nhiễm môi trường</p>
+                            <p class="secPostDescription" id="secPostDescript2">Hiện nay, ô nhiễm môi trường đang là vấn đề nhức nhối với mỗi quốc gia, không chỉ riêng Việt Nam, môi quốc gia, mỗi nước, mỗi địa điểm đều đang xảy ra tình trạng ô nhiễm. Không ít thì nhiều, không ô nhiễm không khí thì ô nhiễm nguồn nước. Không ô nhiễm nguồn đất thì ô nhiễm tiếng ồn,…</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="secPostContainer" id="section1Post3">
+                    <div class="secThumbnail" id="secPostThumb3"><img src="https://vitamia.com.vn/wp-content/uploads/2020/06/Moi-truong-nuoc-bi-o-nhiem-anh-huong-nang-ne-den-con-nguoi-va-vi-sinh-vat.jpg" alt=""></div>
+                    <a href="/resource/post/environ/o-nhiem-moi-truong-co-nguy-hiem-nhu-chung-ta-nghi.html">
+                        <div class="secContent">
+                            <div class="secTime" style="display: flex; align-items: center;">
+                                <span style="font-size: 12pt; margin-right: 0.25vw;" class="material-symbols-outlined">schedule</span>
+                                <p class="secPostTime" id="secPostTime3">28 MAY 2022</p>
+                            </div>
+                            <p class="secPostTitle" id="secPostTitle3">Ô nhiễm môi trường nước có nguy hiểm như chúng ta nghĩ</p>
+                            <p class="secPostDescription" id="secPostDescript3">Ô nhiễm môi trường nước đang trở lên báo động không chỉ ở Việt Nam mà còn trên cả thế giới. Vậy, ô nhiễm môi trường nước được hiểu như thế nào, theo Wikipedia thì ô nhiễm môi trường nước là hiện tượng các vùng nước như hồ, sông, biển, nước ngầm,... bị những hoạt động của môi trường tự nhiên, con người làm nhiễm một số tạp chất độc hại như chất thải công nghiệp chưa được xử lý, chất có thuốc bảo vệ thực vật,... Tất cả có thể gây hại cho con người và cuộc sống của các loài sinh vật trong tự nhiên.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="secPostContainer" id="section1Post4">
+                    <div class="secThumbnail" id="secPostThumb4"><img src="/resource/Project môi trường/Môi trường và phân loại rác/Môi trường/Post1Picture2.jpg" alt=""></div>
+                    <a href="/resource/post/environ/bien-doi-khi-hau.html">
+                        <div class="secContent">
+                            <div class="secTime" style="display: flex; align-items: center;">
+                                <span style="font-size: 12pt; margin-right: 0.25vw;" class="material-symbols-outlined">schedule</span>
+                                <p class="secPostTime" id="secPostTime4">20 MAY 2022</p>
+                            </div>
+                            <p class="secPostTitle" id="secPostTitle4">Biến đổi khí hậu</p>
+                            <p class="secPostDescription" id="secPostDescript4">Biến đổi khí hậu phản ánh sự thay đổi dài hạn về nhiệt độ và các hiện tượng thời tiết. Những thay đổi này là tự nhiên, nhưng kể từ những năm 1800, tác động của con người là nguyên nhân chính gây ra biến đổi khí hậu, chủ yếu do đốt nhiên liệu hóa thạch (như than, dầu và khí đốt) tạo ra khí giữ nhiệt. Các tác động của biến đổi khí hậu, nhiệt độ ấm hơn theo thời gian đang làm thay đổi hiện tượng thời tiết và phá vỡ sự cân bằng thông thường của thiên nhiên. Điều này ảnh hưởng tới cuộc sống của con người và các loại động thực vật trên trái đất.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="secPostContainer" id="section1Post4" style="position: relative;">
+                    <div id="secPostReadmore">
+                        <a href="/environment.html"><p>Read more</p></a>
+                    </div>
+                    <div class="secThumbnail" id="secPostThumb4"><img src="https://source.unsplash.com/1600x900/?nature,sun" alt=""></div>
+                    <div class="secContent">
+                        <div class="secTime" style="display: flex; align-items: center;">
+                            <span style="font-size: 12pt; margin-right: 0.25vw;" class="material-symbols-outlined">schedule</span>
+                            <p class="secPostTime" id="secPostTime4">01 JAN 2022</p>
+                        </div>
+                        <p class="secPostTitle" id="secPostTitle4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat magni fugiat, est numquam quisquam ipsam veniam iure eveniet dolore accusantium, voluptatibus asperiores dignissimos rem reiciendis provident quod, nisi dicta odit!</p>
+                        <p class="secPostDescription" id="secPostDescript4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, maxime cumque facilis quam corrupti perspiciatis repellendus cum quaerat provident sunt accusamus recusandae labore! Iure, eveniet nulla incidunt similique ducimus eius?</p>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </section>
+        <section>
+            <div class="sectionHorizonLine">
+                <div class="yLine"></div>
+                <p class="sectionName">Recycle</p>
+                <div class="xLine"></div>
+            </div>
+            <div class="section1PostRow">
+                <div class="secPostContainer" id="section1Post1">
+                    <a href="/resource/post/recycle/rac-khong-chi-co-1-loai.html">
+                        <div class="secThumbnail" id="secPostThumb1"><img src="https://photo-cms-baophapluat.zadn.vn/w800/Uploaded/2021/carwqwrwq/2019_03_27/0_QDAB.png" alt=""></div>
+                        <div class="secContent">
+                            <div class="secTime" style="display: flex; align-items: center;">
+                                <span style="font-size: 12pt; margin-right: 0.25vw;" class="material-symbols-outlined">schedule</span>
+                                <p class="secPostTime" id="secPostTime1">11 JUL 2022</p>
+                            </div>
+                            <p class="secPostTitle" id="secPostTitle1">Rác không chỉ có 1 loại.</p>
+                            <p class="secPostDescription" id="secPostDescript1">Rác thải sẽ trở thành nguồn tài nguyên tái chế phục vụ cho cuộc sống của con người nếu quy trình thu gom-vận chuyển-xử lý rác thải được thực hiện một cách khoa học và triệt để. Một khâu quan trọng trong quá trình này chính là việc phân loại rác thải sao cho việc thu gom xử lý có thể thực hiện nhanh chóng và dễ dàng..</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="secPostContainer" id="section1Post2">
+                    <div class="secThumbnail" id="secPostThumb2"><img src="https://anphatholdings.com/wp-content/uploads/2020/04/hau-qua-cua-rac-thai-nhua-den-trai-dat.jpg" alt=""></div>
+                    <a href="/resource/post/recycle/rac-thai-nhua-moi-nguy-co-tiem-tang.html">
+                        <div class="secContent">
+                            <div class="secTime" style="display: flex; align-items: center;">
+                                <span style="font-size: 12pt; margin-right: 0.25vw;" class="material-symbols-outlined">schedule</span>
+                                <p class="secPostTime" id="secPostTime2">01 JUL 2022</p>
+                            </div>
+                            <p class="secPostTitle" id="secPostTitle2">Rác thải nhựa - mối nguy tiềm tàng.</p>
+                            <p class="secPostDescription" id="secPostDescript2">Thế giới đang chết chìm trong nhựa. Người ta đã tìm thấy rác thải nhựa trong đại dương từ Bắc cực tới Nam cực và từ bề mặt đến đáy biển. Hàng triệu tấn nhựa được thải ra mỗi năm, phần lớn từ những nơi bị đổ bất cẩn trên đất liền và xuống sông và sau đó được các dòng sông đưa ra biển và các dòng hải lưu mang theo các mảnh nhựa đi khắp các ngóc ngách của thế giới.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="secPostContainer" id="section1Post3">
+                    <div class="secThumbnail" id="secPostThumb3"><img src="http://image.plo.vn/w800/Uploaded/2019/mrnvyqdxl/2017_09_16/giam-rac-thai_pykb.jpg" alt=""></div>
+                    <a href="/resource/post/recycle/tai-che-rac-cuu-tinh-cua-ca-hanh-tinh.html">
+                        <div class="secContent">
+                            <div class="secTime" style="display: flex; align-items: center;">
+                                <span style="font-size: 12pt; margin-right: 0.25vw;" class="material-symbols-outlined">schedule</span>
+                                <p class="secPostTime" id="secPostTime3">28 JUN 2022</p>
+                            </div>
+                            <p class="secPostTitle" id="secPostTitle3">Tái chế rác - Cứu tinh của cả hành tinh</p>
+                            <p class="secPostDescription" id="secPostDescript3">Nhằm làm giảm bớt sự nguy hại của chất thải đối với môi trường sống, nhằm bảo vệ sức khỏe cho tất cả mọi người. Với những việc tái chế chất thải, con người có thể giảm bớt được chi phí xử lý ô nhiễm môi trường. Không chỉ thế, nếu chất thải này có thể trở thành nguồn nguyên liệu mới thì có thể giảm bớt được chi phí trong kinh doanh. Mang lại lợi nhuận cao hơn từ việc tái chế chất thải cho doanh nghiệp.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="secPostContainer" id="section1Post4">
+                    <div class="secThumbnail" id="secPostThumb4"><img src="/resource/Project môi trường/Môi trường và phân loại rác/Phân loại rác/Picture1.jpg" alt=""></div>
+                    <a href="/resource/post/recycle/phan-loai-rac.html">
+                        <div class="secContent">
+                            <div class="secTime" style="display: flex; align-items: center;">
+                                <span style="font-size: 12pt; margin-right: 0.25vw;" class="material-symbols-outlined">schedule</span>
+                                <p class="secPostTime" id="secPostTime4">05 JUN 2022</p>
+                            </div>
+                            <p class="secPostTitle" id="secPostTitle4">Phân loại rác</p>
+                            <p class="secPostDescription" id="secPostDescript4">Rác thải sẽ trở thành nguồn tài nguyên tái chế phục vụ cho cuộc sống của con người nếu quy trình thu gom-vận chuyển-xử lý rác thải được thực hiện một cách khoa học và triệt để. Một khâu quan trọng trong quá trình này chính là việc phân loại rác thải sao cho việc thu gom xử lý có thể thực hiện nhanh chóng và dễ dàng.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="secPostContainer" id="section1Post4" style="position: relative;">
+                    <div id="secPostReadmore">
+                        <a href="/recycle.html"><p>Read more</p></a>
+                    </div>
+                    <div class="secThumbnail" id="secPostThumb4"><img src="https://source.unsplash.com/1600x900/?nature,sun" alt=""></div>
+                    <div class="secContent">
+                        <div class="secTime" style="display: flex; align-items: center;">
+                            <span style="font-size: 12pt; margin-right: 0.25vw;" class="material-symbols-outlined">schedule</span>
+                            <p class="secPostTime" id="secPostTime4">01 JAN 2022</p>
+                        </div>
+                        <p class="secPostTitle" id="secPostTitle4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat magni fugiat, est numquam quisquam ipsam veniam iure eveniet dolore accusantium, voluptatibus asperiores dignissimos rem reiciendis provident quod, nisi dicta odit!</p>
+                        <p class="secPostDescription" id="secPostDescript4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, maxime cumque facilis quam corrupti perspiciatis repellendus cum quaerat provident sunt accusamus recusandae labore! Iure, eveniet nulla incidunt similique ducimus eius?</p>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </section>
+        
+    </div>
+    <footer>
+        <div id="webName">
+            The Duy's Emvironment Project
+        </div>
+        <div id="contact">
+            Email: gamnhamtlc@gmail.com
+        </div>
+        <div id="slogan">
+            Environment - The present
+        </div>
+    </footer>
+</body>
+</html>

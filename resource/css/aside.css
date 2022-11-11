@@ -1,0 +1,31 @@
+aside {
+    width: 35%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+aside a {
+    text-decoration: none;
+    color: black;
+}
+aside > div {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+aside div img{
+    height: 7vw;
+    width: 10vw;
+    object-fit: cover;
+    object-position: center;
+}
+aside p {
+    font-size: 14pt;
+    font-weight: bold;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}

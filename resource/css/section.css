@@ -1,0 +1,118 @@
+/* Section Line */
+.sectionHorizonLine {
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;
+}
+.yLine {
+    width: 1%;
+    height: 3vw;
+    background: #DD0000;
+}
+.xLine {
+    width: 100%;
+    height: 1vw;
+    background: #D9D9D9;
+}
+.sectionName {
+    width: auto;
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+/* SECTION POST */
+
+.section1PostRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1.55vw;
+}
+.secPostContainer{
+    margin-top: 1vw;
+    width: 32%;
+    overflow: hidden;
+}
+.secThumbnail {
+    width: 100%;
+    height: 15vw;
+}
+.secThumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+}
+/* Post Title */
+.secContent{
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+}
+.secPostContainer p{
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    text-decoration: none;
+}
+.secTime {
+    font-size: 10pt;
+    color: gray;
+}
+
+.secPostTitle {
+    font-size: 16pt;
+    font-weight: bold;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    letter-spacing: 0.75pt;
+    word-spacing: 1.5pt;
+}
+.secPostDescription {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+#secPostReadmore {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+#secPostReadmore p {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1.15;
+}
+#secPostReadmore~div {
+    filter: blur(5px);
+}
+.secPostContainer a{
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    text-decoration: none;
+}
+.secPostContainer a:hover{
+    cursor: pointer;
+}

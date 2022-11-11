@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    font-family: 'Roboto';
+    font-size: 10pt;
+}
+a {
+    color: black;
+}
+a:hover{
+    color: #bc4749;
+    font-family: 'Roboto';
+    cursor: pointer;
+}
+button:hover {
+    cursor: pointer;
+}
+#body {
+    width: 80%;
+    margin: auto;
+    padding-top: 2vw;
+}
+main {
+    display: flex;
+    gap: 3%;
+}
+#slide {
+    width: 90%;
+}
+footer {
+    background-color: green;
+    margin-top: 5vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+}
+
+/* Reposive display */
+@media (max-width: 900px) {
+    #aside , #enviAside {
+        display: none;
+    }
+    main {
+        width: 100%;
+    }
+    #searchIcon span {
+        display: none;
+    }
+    #slide {
+        width: 100%;
+    }
+}
